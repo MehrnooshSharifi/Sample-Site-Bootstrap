@@ -1,0 +1,13 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.ttf');
+}
+.lalezar{
+    font-family: "lalezar";
+}
+body{
+    font-family: 'vazir' , sans-serif;
+    font-size: 1rem;
+}
