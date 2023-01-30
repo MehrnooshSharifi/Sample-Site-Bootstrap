@@ -11,3 +11,29 @@ body{
     font-family: 'vazir' , sans-serif;
     font-size: 1rem;
 }
+@media screen and (min-width : 768px) {
+    .position-md-fixed{
+        position: fixed;
+    }
+}
+.course-list{
+width: 300px;
+border: 1px solid #ddd;
+border-radius: 10px;
+background-color: #fff;
+padding: 10px 0px;
+}
+
+.course-list-item{
+display: flex;
+padding: 10px 15px;
+}
+.course-list-item:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+/* Header Background */
+.header{
+    background: url("/images/header/header-bg.png") top center no-repeat;
+    background-size: cover;
+}
