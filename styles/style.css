@@ -71,3 +71,7 @@ body {
   transform: scale(1.05);
   transition: all 0.5s;
 }
+/* Footer */
+footer{
+  background-color: #f2f5fc;
+}
